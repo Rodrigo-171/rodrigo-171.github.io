@@ -8,7 +8,7 @@ export const Contato = () => {
                 <h3 className="font-bold text-zinc-800 dark:text-zinc-200 text-xl sm:text-xl md:text-2xl xl2:text-4xl">Onde me encontrar</h3>
                 <div className="mt-10 flex flex-wrap w-full gap-y-8 gap-4 justify-center lg:gap-16 xl2:gap-28" >
                     <div className="text-center flex-col items-center flex-1" data-aos="fade-up">
-                        <a href="rodrigonavarro171@gmail.com" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
+                        <a href="mailto:rodrigonavarro171@gmail.com" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
                             <div className="mb-2 flex justify-center items-center bg-blue-500 w-12 h-12 rounded-full">
                                 <Image src="/images/mail.svg" width={25} height={25} alt="Ícone Email" />
                             </div>
