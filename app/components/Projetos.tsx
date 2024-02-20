@@ -4,7 +4,7 @@ export const Projetos = () => {
     
     return(
 
-        <div className="max-w-[2500px] bg-zinc-100 dark:bg-zinc-900 px-6 pb-6 pt-40 sm:px-14 xl:px-20 flex w-full">
+        <div className="max-w-[2500px] bg-transparent px-6 pb-6 pt-40 sm:px-14 xl:px-20 flex w-full">
             <div className="flex flex-col w-full">
                 <div className="flex flex-col gap-6">
                     <div className="bg-blue-500 w-fit px-3 py-2 rounded-md text-white text-sm sm:text-base">🔗 Portfólio</div>

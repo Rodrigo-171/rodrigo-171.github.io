@@ -8,7 +8,7 @@ export const Card = () => {
 
     return(
         <>
-            <div className="overflow-y-hidden opacity-100 mb-0 duration-500 transition-all animate-slide-up" data-aos="fade-up">
+            <div className="overflow-y-hidden opacity-100 mb-0 duration-500 transition-all" data-aos="fade-up">
                 <div className="cursor-pointer bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-700 dark:hover:bg-zinc-600 transition-600 rounded-xl flex flex-col px-6 py-4 gap-3 border-solid border border-zinc-300 dark:border-zinc-500 min-w-[calc(260px)]">
                     <div className="flex gap-2">
                         <span className="w-2 h-2 rounded-full bg-red-500"></span>

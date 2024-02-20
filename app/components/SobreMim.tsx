@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const SobreMim = () => {
     return (
-        <div id="sobre-mim" className="bg-zinc-100 dark:bg-zinc-900 w-full px-10 py-6 sm:px-14 xl:px-20 flex w-full pt-40">
+        <div id="sobre-mim" className="bg-transparent w-full px-10 py-6 sm:px-14 xl:px-20 flex w-full pt-40">
             <div className="w-full flex flex-col gap-12 xkl:gap-32">
                 <div className="flex flex-col gap-8 lg:flex-row lg:justify-center lg:items-center w-full ">
                     <div className="flex justify-center lg:w-[calc(50%)] lg:justify-end">

@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full z-[-10] bg-zinc-100 dark:bg-zinc-900">
       <Toggle />
       <Hero />
       <SobreMim />
