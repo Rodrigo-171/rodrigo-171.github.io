@@ -18,7 +18,7 @@ export const Contato = () => {
                     </div>
 
                     <div className="text-center flex-col items-center flex-1">
-                        <a href="rodrigonavarro171@gmail.com" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
+                        <a href="https://www.linkedin.com/in/rodrigo-medeiros-94667b1ba" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
                             <div className="mb-2 flex justify-center items-center bg-blue-500 w-12 h-12 rounded-full">
                                 <Image src="/images/ln.svg" width={25} height={25} alt="Ícone Linkedin" />
                             </div>
@@ -28,7 +28,7 @@ export const Contato = () => {
                     </div>
 
                     <div className="text-center flex-col items-center flex-1">
-                        <a href="rodrigonavarro171@gmail.com" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
+                        <a href="https://github.com/Rodrigo-171" rel="noreferrer" target="_blank" className="text-center flex flex-col items-center">
                             <div className="mb-2 flex justify-center items-center bg-blue-500 w-12 h-12 rounded-full">
                                 <Image src="/images/git.svg" width={25} height={25} alt="Ícone Github" />
                             </div>
