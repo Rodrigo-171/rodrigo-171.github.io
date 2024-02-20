@@ -3,7 +3,7 @@ import Image from "next/image"
 export const CardSkills = () => {
     return (
         <>
-            <div className="bg-zinc-200 dark:bg-zinc-700 rounded flex flex-col px-6 pt-4 gap-3 border-solid border border-zinc-300 dark:border-zinc-500 pb-6 min-w-[calc(260px)]">
+            <div className="bg-zinc-200 dark:bg-zinc-700 rounded flex flex-col px-6 pt-4 gap-3 border-solid border border-zinc-300 dark:border-zinc-500 pb-6 min-w-[calc(260px)]" data-aos="fade-up">
                 <div className="flex gap-2">
                     <span className="w-2 h-2 rounded-full bg-red-500"></span>
                     <span className="w-2 h-2 rounded-full bg-yellow-500"></span>
@@ -20,7 +20,7 @@ export const CardSkills = () => {
                 </div>
             </div>
 
-            <div className="bg-zinc-200 dark:bg-zinc-700 rounded flex flex-col px-6 pt-4 gap-3 border-solid border border-zinc-300 dark:border-zinc-500 pb-6 min-w-[calc(260px)]">
+            <div className="bg-zinc-200 dark:bg-zinc-700 rounded flex flex-col px-6 pt-4 gap-3 border-solid border border-zinc-300 dark:border-zinc-500 pb-6 min-w-[calc(260px)]" data-aos="fade-up">
                 <div className="flex gap-2">
                     <span className="w-2 h-2 rounded-full bg-red-500"></span>
                     <span className="w-2 h-2 rounded-full bg-yellow-500"></span>
