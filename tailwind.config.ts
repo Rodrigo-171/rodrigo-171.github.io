@@ -6,12 +6,19 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  
+  darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        slideUp: {
+          "0%": {transform : "translateY(80px)", opacity:"0"},
+          "50%": {transform : "translateY(40px)", opacity:"0.5"},
+          "100%":  {transform : "translateY(0px)", opacity:"1"}
+        },
+      },
+      animation: {
+        "slide-up": "slideUp 0.5s linear",
       },
     },
   },
