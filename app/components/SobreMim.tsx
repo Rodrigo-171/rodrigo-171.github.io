@@ -5,10 +5,10 @@ export const SobreMim = () => {
         <div id="sobre-mim" className="bg-transparent w-full px-10 py-6 sm:px-14 xl:px-20 flex w-full pt-40">
             <div className="w-full flex flex-col gap-12 xkl:gap-32">
                 <div className="flex flex-col gap-8 lg:flex-row lg:justify-center lg:items-center w-full ">
-                    <div className="flex justify-center lg:w-[calc(50%)] lg:justify-end">
+                    <div className="flex justify-center lg:w-[calc(50%)] lg:justify-end" data-aos="fade-right">
                         <Image width={0} height={0} alt="Foto do Desenvolvedor Rodrigo Medeiros"  className="self-center rounded-full w-56 h-auto lg:w-64 lg:mr-28 xl2:w-72" src="/images/user.png" />
                     </div>
-                    <div className="flex flex-col gap-6 lg:w-1/2 xl2:gap-8 justify-center">
+                    <div className="flex flex-col gap-6 lg:w-1/2 xl2:gap-8 justify-center" data-aos="fade-left">
                         <div className="bg-blue-500 w-fit px-3 py-2 rounded-md text-white text-sm sm:text-base dark:bg-dprimary">
                             Sobre Mim
                         </div>

@@ -191,3 +191,10 @@
 .xl3\:grid-cols-fluid3{
 	grid-template-columns: repeat(auto-fit,300px);
 }
+
+@media (max-width:768px) {
+	.overflow-mobile{
+		overflow-x: auto;
+	}
+	
+}
