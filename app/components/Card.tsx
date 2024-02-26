@@ -25,6 +25,10 @@ export const Card = () => {
                             <Image width={27} height={27} className="w-[calc(27px)] rounded-md" src="/images/tailwindcss.svg" alt="React Logo" />
                         </div>
                         <Image width={150} height={100} className="rounded-lg w-full h-auto" src="/images/spotify-1280x720-1.jpg" alt="banner Spotify" />
+                        <div className="flex w-full pt-2 gap-2 justify-center">
+                            <a href="https://rodrigo-171.github.io/spotify-tailwind/" target="_blank" className="bg-blue-500 hover:bg-blue-600 px-9 py-2 rounded-md text-white text-base">Demo</a>
+                            <a href="https://github.com/Rodrigo-171/spotify-tailwind" target="_blank" className="bg-blue-500 hover:bg-blue-600 px-8 py-2 rounded-md text-white text-base">GitHub</a>
+                        </div>
                     </div>
                 </div>
             </div>
