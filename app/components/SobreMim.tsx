@@ -15,9 +15,9 @@ export const SobreMim = () => {
                         <h3 className="font-bold text-zinc-800 text-xl sm:text-xl md:text-2xl xl2:text-4xl dark:text-zinc-200">Rodrigo Navarro Medeiros</h3>
                         <div className="text-left">
                             <ul className="text-left flex flex-col gap-3">
-                                <li className="dark:text-zinc-400 text-zinc-800 text-xs md:text-sm">Desenvolvendo interfaces e APIs com Javascript/React/Typescript desde 2022</li>
+                                <li className="dark:text-zinc-400 text-zinc-800 text-xs md:text-sm">Desenvolvendo Interfaces e APIs com Javascript/React/Typescript desde 2022</li>
                                 <li className="dark:text-zinc-400 text-zinc-800 text-xs md:text-sm">Cursando Sistema para Internet</li>
-                                <li className="dark:text-zinc-400 text-zinc-800 text-xs md:text-sm">Interesse em desenvolvimento Front-End</li>
+                                <li className="dark:text-zinc-400 text-zinc-800 text-xs md:text-sm">Interesse em Desenvolvimento Front-End</li>
                             </ul>
                         </div>
                     </div>
